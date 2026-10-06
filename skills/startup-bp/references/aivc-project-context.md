@@ -1,6 +1,6 @@
 # AIVC 虚拟类器官项目：当前生效的规则
 
-来源：本地对话「创业项目BP重构」的总结（2026-10）。最新稿：`docs/AIVC_BP_v11.md`（旧版本保留作对照）。
+来源：本地对话「创业项目BP重构」的总结（2026-10）。最新稿：`docs/AIVC_BP_v12.md`（旧版本保留作对照）。
 
 ## 一、历次修改要求（按时间顺序）
 1. PPT 版 BP 转成 Markdown 继续修改（节省流量）。
@@ -18,9 +18,10 @@
 13. 团队页：先介绍成员再列职责表；卓博创始人 & CEO，田博 CSO（不写联合创始人），王博 CTO，兰晓静 COO；做一页 PPT 看效果（→ v9，`slides/team_slide.pptx`）。
 14. 卓博只写 CEO；去头像位；修饰四人介绍；表格去掉「对应飞轮环节」（→ v10）。
 15. 先出封面、目录、第一部分与团队 PPT；封面用 Twin 版拆写；1.4 移入第二部分；团队标题改回原标题；补卓博本科；兰晓静去掉「就读」（→ v11）。
+16. 换掉「飞行员模拟器」比喻（改为天气预报：实测校准模型、风暴前预警）；封面 slogan 突出双轨校准这一科学底层原理（→ v12）。
 
 ## 二、生效规则
-- **文件**：以 `AIVC_BP_v11.md` 为最新版，在 Markdown 上继续改；新版另存为 v4、v5…
+- **文件**：以 `AIVC_BP_v12.md` 为最新版，在 Markdown 上继续改；新版另存为 v4、v5…
 - **结构**：一页纸摘要 → 第一步 为什么要做（1.1 行业代价 / 1.2 临床缺口 / 1.3 为什么是现在）→ 第二步 为什么我们能做成（2.1 核心缺口 = 技术壁垒的起点，2.2–2.10 技术、飞轮、护城河、验证、适应症、团队、竞争、速记卡）→ 第三步 做成之后 → 结语。
 - **团队标题**：「团队：科学 × 数据 × 模型 × 运营，核心能力实现自持闭环」。
 - **PPT 进度**：已出封面、目录、第一部分与团队页（`slides/Vitoma_BP_part1_team.pptx`，生成脚本 `tools/slides/deck.js`）；第二、三部分待卓悦博士、田伟利博士补充科学技术内容。
@@ -28,8 +29,8 @@
 - **封面**（v8）：
   - 公司名称：**Vitoma**（中文名暂不上封面：「维拓」与深圳「韦拓生物」同音，待律师评估，见 `docs/naming-check-vitoma.md`）
   - 名称拆写（放在 Vitoma 正下方）：Virtual Intelligence Twin & Organism Modeling Architecture（团队选定；路演时把「Twin」解释为长期愿景）
-  - 英文 slogan：Rehearse every treatment on the patient's own organoids — before it begins.
-  - 使命 slogan：让每一次治疗，先在患者自己的类器官上预演
+  - 使命 slogan（突出科学底层原理）：患者与类器官双轨校准，预见肿瘤的下一步
+  - 英文 slogan：Patient and organoid, calibrated in parallel — to foresee the tumor's next move.
   - 产品｜价值主张：AIVC 虚拟类器官｜让复发与耐药，在发生之前被看见
   - 产品说明：用患者自己的肿瘤类器官，训练出能预测其治疗响应与复发的虚拟模型
   - 融资：5000 万元人民币（覆盖 12 个月）
