@@ -110,6 +110,7 @@ description: 为早期科技 / 生物医药创业项目生成和迭代面向投�
 - 叙事逻辑自查 → strategy-frameworks 插件的 `pyramid-principle`（结论先行）。
 - 模拟投资人追问 → cofounders 插件的 `cofounderpitch-prep` / `investor-agent`。
 - 路演 PPT → `pptx`（或可用的幻灯片 Artifact 类型），每页一个结论标题，正文精简，图表优先。
+  **用户提供了 PPT 模板时，一律在模板上改**：解包模板、保留需要的页、只替换 `<a:t>` 文字（脚本 `tools/slides/edit_runs.py`），不改版式、配色、字体和图形；文字放不下时先精简文字，再考虑字号，最后才问用户。
 
 ### 预算模拟与 Plan B 准备金（融资章节）
 
